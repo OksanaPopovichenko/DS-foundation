@@ -21,7 +21,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/tailwind.css --minify",
-    "deploy-storybook": "npx chromatic --project-token=3cb86c5460e3"
+    "chromatic": "npx chromatic --project-token=3cb86c5460e3"
   },
   "peerDependencies": {
     "react": ">=16"
