@@ -4,12 +4,6 @@ module.exports = {
 	darkMode: false,
 	theme: {
 		extend: {
-			spacing: {
-				md: '0.813rem',
-				m: '2.1875rem',
-				xl: '4.313rem',
-				large: '10.5rem',
-			},
 			screens: {
 				sym: '600px',
 				xs: '400px',
